@@ -1,17 +1,21 @@
 {
-  "description" : "Microsoft Authentication Services",
-  "name" : "Microsoft Auth Services",
-  "rules" : [
-    {
-      "action" : "allow",
-      "creationDate" : 1604932997.584707,
-      "modificationDate" : 1604932997.584707,
-      "owner" : "me",
-      "process" : "any",
-      "remote-domains" : [
-        "microsoftonline-p.com",
-        "msauth.net"
-      ]
-    }
-  ]
+	"description" : "Microsoft Authentication Services",
+	"name" : "Microsoft Auth Services",
+	"rules" : [
+			{
+				"action" : "allow",
+				"process" : "any",
+				"remote-domains" : "microsoftonline-p.com"
+			},
+			{
+				"action" : "allow",
+				"process" : "any",
+				"remote-domains" : "msauth.net"
+			},
+			{
+				"action" : "allow",
+				"process" : "any",
+				"remote-domains" : "msftauthimages.net"
+			}
+		]
 }
