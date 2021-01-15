@@ -16,6 +16,11 @@
 				"action" : "allow",
 				"process" : "any",
 				"remote-domains" : "msftauthimages.net"
+			},
+			{
+				"action" : "allow",
+				"process" : "any",
+				"remote-domains" : "msftauth.net"
 			}
 		]
 }
